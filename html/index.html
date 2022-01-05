@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agence de voyages proposant ses services au coeur de la ville de Grenoble" />
+    <meta name="author" content="Antonio Van Grieken">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/Destination.js"></script>
+    <title>Agence de voyages</title>
+</head>
+
+<body>
+    <header>
+        <nav class="row">
+            <!-- menu dynamique -->
+        </nav>
+        <h1>Agence de voyages Grenoble</h1>
+    </header>
+    <hr>
+
+    <!-- Accueil Section -->
+    <section id="indexSection">
+        <h2>Description Générale</h2>
+        <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum iste
+            quam praesentium id voluptatibus eius doloribus esse hic porro consequatur nihil blanditiis
+            illum quos doloremque commodi temporibus, dolorem nesciunt?. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Distinctio consectetur quasi odio quam atque similique esse
+            inventore animi, praesentium amet? Velit magnam non eligendi autem quo sequi veritatis
+            laboriosam placeat.</blockquote>
+
+            <cite>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore illo ea nostrum nihil
+                consequuntur, blanditiis aut odit! At illo et rem cum doloribus accusamus saepe? Labore
+                laboriosam numquam magni illum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis sapiente tempora molestias, minima, cum autem expedita ab recusandae voluptate,
+                omnis ea magni? Asperiores omnis quo illum molestias odit? Natus, vel?
+            </cite>
+
+            <h3>Nos voyages</h3>
+            <div class="trips">
+                <!-- team générée automatiquement -->
+
+            </div>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quo voluptas animi eius magni
+                quia beatae, officia dolorem ducimus, repellendus iusto corrupti porro expedita eligendi
+                culpa consectetur tenetur numquam. Iusto.</p>
+        </div>
+    </section>
+
+    <!-- Personal Espace Section -->
+    <section id="persoSection">
+        <ul>
+            <li>Connexion</li>
+            <li>
+                Mes Informations
+                <ol>
+                    <li>Van Grieken Antonio</li>
+                    <li>0649307655</li>
+                    <li>antovang@gmail.com</li>
+                </ol>
+                <br>
+            </li>
+            <li>Messagerie</li>
+            <li>Historique</li>
+        </ul>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="tableauSection">
+        <table id="destinations">
+            <tr>
+                <th>Destinations</th>
+                <th>Pays</th>
+                <th>Offre</th>
+                <th>Prix</th>
+                <th>Réservation</th>
+                <th>Admin</th>
+            </tr>
+
+            <!-- Le reste des destinations seront ajoutées par le script.js une fois la page rechargée -->
+        </table>
+    </section>
+
+    <!-- Visite Audio Section -->
+    <section id="visiteAudioSection" class="row">
+        <figure>
+            <figcaption>Écoutez les sons du Brésil :</figcaption>
+            <audio
+                autoplay
+                controls
+                src="../audio/dogbark.mp3">
+            </audio>
+        </figure>
+        <br>
+        <figure>
+            <figcaption>Écoutez les sons du Maroc :</figcaption>
+            <audio
+                controls
+                src="../audio/dolphin3.mp3">
+            </audio>
+        </figure>
+        <br>
+        <figure>
+            <figcaption>Écoutez les sons du Venezuela :</figcaption>
+            <audio
+                controls
+                src="../audio/dolphinchirping.mp3">
+            </audio>
+        </figure>
+        <br>
+        <figure>
+            <figcaption>Écoutez les sons de l'Espagne:</figcaption>
+            <audio
+                controls
+                src="../audio/dSHAKE.mp3">
+            </audio>
+        </figure>
+    </section>
+
+    <!-- Visite vidéo section -->
+    <section id="visiteVideoSection" class="row">
+        <div class="videoContainer">
+            <video controls autoplay>
+    
+                <source src="../video/pexels-mart-production-7565441.mp4"
+                        type="video/webm">    
+            </video>
+        </div>
+        <div class="videoContainer">
+            <video controls>
+    
+                <source src="../video/production ID_4439948.mp4"
+                        type="video/webm">
+            </video>
+        </div>
+        <div class="videoContainer">
+            <video controls>
+    
+                <source src="../video/production ID_5007874.mp4"
+                        type="video/webm">
+            
+            </video>
+        </div>
+        <div class="videoContainer">
+            <video controls>
+    
+                <source src="../video/production ID_5066798.mp4"
+                        type="video/webm">
+    
+            </video>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contactSection" class="formSection">
+        <form action="">
+            <fieldset>
+                <legend>Nous contacter</legend>
+
+                <div class="formContainer">
+                    <div>
+                        <label for="prenom">Prenom</label>
+                        <label for="nom">Nom*</label>
+                        <label for="mail">Mail</label>
+                        <label for="tel">Téléphone</label>
+                    </div>
+                    <div>
+                        <input type="text" id="prenom">
+                        <input type="text" id="nom" required>
+                        <input type="email" name="" id="mail">
+                        <input type="tel" name="" id="tel" pattern="[0-9]{10}">
+                    </div>
+                </div>
+                
+                <br>
+
+                <label for="message">Message*</label><br>
+                <textarea name="" id="message" cols="30" rows="10"></textarea>
+
+                <div class="row">
+                    <button class="customButton" type="submit">Envoyer</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <!-- Back Office Section -->
+    <section id="backOfficeSection" class="formSection">
+        <form action="">
+            <fieldset>
+                <legend>Ajout d'une destination</legend>
+                <div class="formContainer">
+                    <div>
+                        <label for="nomPays">Pays</label>
+                        <label for="prixOffre">Prix Offre</label>
+                    </div>
+                    <div>
+                        <input type="text" name="" id="nomPays">
+                        <input type="text" name="" id="prixOffre">
+                    </div>
+                </div>
+                <label for="imgPaysInput">Image Offre</label><br>
+                <input type="file" accept="image/*" name="" id="imgPaysInput">
+                <br>
+                <div class="imagePreview">
+                    <!-- Image preview -->
+                    <img src="" id="uploadedImg" alt="">
+                </div>
+                <br>
+                <label for="description">Description Offre </label><br>
+                <textarea name="" id="description" cols="30" rows="10"></textarea>
+
+                <div class="row">
+                    <a class="customButton" id="addDestination">Ajouter</a>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <hr>
+        copyright 2021 | Antonio Van Grieken
+    </footer>
+</body>
+
+</html>
