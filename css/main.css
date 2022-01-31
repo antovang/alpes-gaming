@@ -58,6 +58,7 @@ nav {
   display: flex;
   justify-content: space-around; }
   .trips picture img {
+    width: 200px;
     border-radius: 50%;
     border: 1px gray; }
 
