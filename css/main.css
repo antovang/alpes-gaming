@@ -1,33 +1,49 @@
 @font-face {
   font-family: "Open Sans";
-  src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf"); }
-html, section, footer, nav, table {
-  width: 100%; }
+  src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
+}
+html,
+section,
+footer,
+nav,
+table {
+  width: 100%;
+}
 
 html {
-  height: 100%; }
+  height: 100%;
+}
 
 body {
   font-size: 1.1em;
   font-family: "Open Sans";
   color: #292929;
-  padding-top: 100px; }
+  padding-top: 100px;
+}
 
-img, .nav-elem {
-  box-shadow: 0 0 15px #999; }
-  img:hover, .nav-elem:hover {
-    opacity: 0.9; }
+img,
+.nav-elem {
+  box-shadow: 0 0 15px #999;
+}
+img:hover,
+.nav-elem:hover {
+  opacity: 0.9;
+}
 
 header {
   width: 100%;
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-end; }
+  align-items: flex-end;
+}
 
-a, a:hover, a:visited {
+a,
+a:hover,
+a:visited {
   text-decoration: none;
-  color: #292929; }
+  color: #292929;
+}
 
 nav {
   background-color: white;
@@ -35,97 +51,132 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
-  z-index: 3; }
-  nav .sub-menu {
-    background-color: white;
-    display: none;
-    position: absolute;
-    list-style-type: none;
-    padding: 0px; }
-  nav .nav-elem {
-    background-color: white;
-    border: 1px solid lightgray;
-    text-decoration: none;
-    color: #292929;
-    padding: 15px; }
-  nav .nav-elem:hover {
-    background-color: #5c65ff;
-    color: white; }
-    nav .nav-elem:hover .sub-menu {
-      display: block; }
+  z-index: 3;
+}
+nav .sub-menu {
+  background-color: white;
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  padding: 0px;
+}
+nav .nav-elem {
+  background-color: white;
+  border: 1px solid lightgray;
+  text-decoration: none;
+  color: #292929;
+  padding: 15px;
+}
+nav .nav-elem:hover {
+  background-color: #5c65ff;
+  color: white;
+}
+nav .nav-elem:hover .sub-menu {
+  display: block;
+}
 
 .trips {
   display: flex;
-  justify-content: space-around; }
-  .trips picture img {
-    width: 200px;
-    border-radius: 50%;
-    border: 1px gray; }
+  justify-content: space-around;
+}
+.trips picture img {
+  width: 200px;
+  border-radius: 50%;
+  border: 1px gray;
+}
 
 section {
-  height: calc(100% - 600px); }
+  height: calc(100% - 600px);
+}
 
 .formSection {
   width: 100%;
   display: flex;
-  justify-content: center; }
-  .formSection form {
-    width: fit-content; }
-    .formSection form .imagePreview {
-      padding: 10px; }
-      .formSection form .imagePreview img {
-        max-width: 150px; }
-    .formSection form .formContainer {
-      display: flex;
-      justify-content: space-between; }
-      .formSection form .formContainer div {
-        display: flex;
-        flex-direction: column;
-        height: 100px;
-        justify-content: space-around; }
+  justify-content: center;
+}
+.formSection form {
+  width: fit-content;
+}
+.formSection form .imagePreview {
+  padding: 10px;
+}
+.formSection form .imagePreview img {
+  max-width: 150px;
+}
+.formSection form .formContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.formSection form .formContainer div {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+}
 
 div.videoContainer {
-  width: 300px; }
-  div.videoContainer video {
-    width: 100%; }
+  width: 300px;
+}
+div.videoContainer video {
+  width: 100%;
+}
 
-table, th, td {
-  border: 1px #5c65ff solid; }
+table,
+th,
+td {
+  border: 1px #5c65ff solid;
+}
 
 table {
-  text-align: center; }
-  table img {
-    width: 300px;
-    margin: 5px; }
-  table th {
-    background-color: #5c65ff;
-    color: white; }
-  table tr:nth-child(odd) {
-    background-color: #ADB2FF;
-    color: #191919; }
-  table tr:hover {
-    opacity: 0.8; }
+  text-align: center;
+}
+table img {
+  width: 300px;
+  margin: 5px;
+}
+table th {
+  background-color: #5c65ff;
+  color: white;
+}
+table tr:nth-child(odd) {
+  background-color: #adb2ff;
+  color: #191919;
+}
+table tr:hover {
+  opacity: 0.8;
+}
 
 .customButton {
   border: 1px solid lightgray;
   background: none;
-  padding: 15px; }
-  .customButton:hover {
-    opacity: 0.7;
-    cursor: grab; }
+  padding: 15px;
+}
+.customButton:hover {
+  opacity: 0.7;
+  cursor: grab;
+}
 
 .space {
   height: 200px;
-  background-color: #5c65ff; }
+  background-color: #5c65ff;
+}
 
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
 
 footer {
   height: 50px;
   background-color: white;
-  text-align: center; }
+  text-align: center;
+}
 
 /*# sourceMappingURL=main.css.map */
