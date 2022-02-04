@@ -1,0 +1,29 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+    <url>
+        <loc>http://www-etu-info.iut2.upmf-grenoble.fr/~amsallel/seo/alpes-gaming/html/index.html</loc>
+        <lastmod>2022-02-04T16:05:17+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>http://www-etu-info.iut2.upmf-grenoble.fr/~amsallel/seo/alpes-gaming/html/vente-jeux-video.html</loc>
+        <lastmod>2022-02-04T15:57:02+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://www-etu-info.iut2.upmf-grenoble.fr/~amsallel/seo/alpes-gaming/html/vente-console.html</loc>
+        <lastmod>2022-02-04T15:56:44+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://www-etu-info.iut2.upmf-grenoble.fr/~amsallel/seo/alpes-gaming/html/echange-jeux-video.html</loc>
+        <lastmod>2022-02-04T15:57:12+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://www-etu-info.iut2.upmf-grenoble.fr/~amsallel/seo/alpes-gaming/html/abonnement.html</loc>
+        <lastmod>2022-02-04T16:10:36+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>
