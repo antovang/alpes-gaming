@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www-etu-info.iut2.upmf-grenoble.fr/~amsallel/seo/alpes-gaming/sitemap.xml
